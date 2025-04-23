@@ -28,11 +28,11 @@ export default function ContactUs() {
 
   function sendDta() {
     emailjs
-      .send("service_xaue66p", "template_ai577tf", formdata)
+      .send("service_uncu5jk", "template_39nhzds", formdata)
       .then((response) => {
         setLoading(null);
         alert(
-          "Your email has been successfully sent to Brijendra Tiwari. He will respond to you shortly.",
+          "Your email has been successfully sent to Bhoomi Dubey (Admin of this site). He will respond to you shortly.",
           response
         );
       })

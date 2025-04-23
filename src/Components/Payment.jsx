@@ -7,8 +7,8 @@ import TicketGenerator from "./ticket";
 function Payment({ amount, formdata }) {
   const [isTicketPage, setIsTicketPage] = useState(false);
   const navigate = useNavigate();
-  const upiId = "kinjalmishra70@oksbi"; // Replace with your actual UPI ID
-  const payeeName = "KINJAL UDAYKANT MISHRA";
+  const upiId = "hareramhare2005@okicici"; // Replace with your actual UPI ID
+  const payeeName = "Hare Ram";
   amount = Math.floor(amount);
   const generateUPILink = () => {
     if (!amount || parseFloat(amount) <= 0) {
